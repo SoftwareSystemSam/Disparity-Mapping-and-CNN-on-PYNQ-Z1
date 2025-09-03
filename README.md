@@ -4,9 +4,17 @@ This projects initial aim was to implement disparity mapping and object recognit
 
 The FPGA used for this project is the PYNQ-Z1. The CNN was trained using CIFAR-10 data. Created with Brevitas, and compiled for the FPGA using FINN. The disparity mapping is using OpenCV packages and the data set used for initially testing disparity mapping is the ETH3D data set as well as the Stereo EGO motion dataset (found here: https://lmb.informatik.uni-freiburg.de/resources/datasets/StereoEgomotion.en.html). To run this project, you need an RPI 5, and either a PYNQ Z1 or PYNQ Z2 (this project used a Z1 but a Z2 should still be able to run the FINN bit files).
 
+<img width="751" height="554" alt="rpi_cameras_pynq" src="https://github.com/user-attachments/assets/03d2fd46-0328-4870-8db5-6dd6ba470007" />
+
+*Figure 1: RPI and PYNQ setup*
 
 
-<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/88d64d21-dbdf-415f-a897-ed2ac20eabfe" />
+
+
+
+
+https://github.com/user-attachments/assets/6e2f797d-da8b-4a6f-bdc2-3a6607fe8355
+*Figure 2: Disparity mapping and object detection live*
 
  
 
