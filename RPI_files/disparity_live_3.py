@@ -253,7 +253,7 @@ while True:
 	cv2.filterSpeckles(disparity_raw,0,200,32)
 	
 	disparity = disparity_raw.astype(np.float32) / 16.0
-	disparity = disparity[:, num_disp:] # Attempt at cropping left invalid bands
+	disparity = disparity[:, num_disp:] # Attempt at cropping left invalid bands - it works
 	
 	# Normalise for display
 	disp_vis = cv2.normalize(disparity, None, 0, 255, cv2.NORM_MINMAX)
@@ -266,9 +266,9 @@ while True:
 	depth_map = np.zeros_like(disparity)
 	valid_disp = disparity > 0
 	
-	baseline = abs(1.0/q[3,2])
+	baseline = abs(1.0/q[3,2]) # Getting Baseline from Q matrix at Row 4, column 3 where it is -1/B
 	
-	depth_map[valid_disp] = (fx * baseline) / disparity[valid_disp]
+	depth_map[valid_disp] = (fx * baseline) / disparity[valid_disp] # Depth = f*b/disparity
 
 	
 	# This is optional and we can play with this
