@@ -1,1 +1,1 @@
-Files to put on FPGA
+Place the FINN_TO_RPI.ipynb and the deploy folder onto the FPGA. It is essential that the deploy folder is in the same folder as the FINN_TO_RPI.ipynb as it uses the deploy folder to reference the FPGA .bit files.
