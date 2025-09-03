@@ -74,7 +74,7 @@ The initial goal was to implement both disparity mapping and CNN-based object re
 
 
 
-https://github.com/user-attachments/assets/e48fc448-d38a-4dd2-834d-38c7ad1492ea
+![live_disparity](https://github.com/user-attachments/assets/cca29f6d-c333-47bc-bf03-3e223c5034a9)
 *Figure 2: Disparity mapping and object detection live*
 
 ## Results
