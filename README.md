@@ -12,8 +12,9 @@ The FPGA used for this project is the PYNQ-Z1. The CNN was trained using CIFAR-1
 
 
 
+https://github.com/user-attachments/assets/963628b5-31e3-48b0-8735-eabe6f099d1a
 
-https://github.com/user-attachments/assets/6e2f797d-da8b-4a6f-bdc2-3a6607fe8355
+
 *Figure 2: Disparity mapping and object detection live*
 
  
