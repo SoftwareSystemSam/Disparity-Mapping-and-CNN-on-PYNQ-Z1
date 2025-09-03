@@ -3,6 +3,11 @@ import numpy as np
 import glob
 import os
 
+## Open CV functions for calibration with chessboard can be found here: https://docs.opencv.org/3.4/d9/d0c/group__calib3d.html#ga617b1685d4059c6040827800e72ad2b6
+## Example calibration can be found here: https://docs.opencv.org/3.4/d4/d94/tutorial_camera_calibration.html
+## And here: https://learnopencv.com/making-a-low-cost-stereo-camera-using-opencv/
+
+
 #Settings
 
 pattern_size = (9,6) #inner corners
@@ -65,7 +70,14 @@ ret, K1, D1, K2, D2, R, T, E, F = cv2.stereoCalibrate(
 R1, R2, P1, P2, Q, _, _ = cv2.stereoRectify(K1, D1, K2, D2, image_size, R, T)
 
 # Save it all now
+# K1, K2 are camera intrinsic matrices
+# D1, D2 are Distortion coefficients
+# R and T are Rotation matrix and Translation Vectors
+# R1 and R2 are REctification Transforms
+# P1 and P2 are Projection matrices
+# Q is disparity to depth mapping matrix 
 
+# More info here https://docs.opencv.org/3.4/d9/d0c/group__calib3d.html#ga617b1685d4059c6040827800e72ad2b6
 np.savez("calibration_data.npz",
 		K1=K1, D1=D1,
 		K2=K2, D2=D2,
