@@ -4,6 +4,9 @@ from picamera2 import Picamera2
 import time
 import os
 
+## Open CV functions for calibration with chessboard can be found here: https://docs.opencv.org/4.x/d9/d0c/group__calib3d.html#ga93efa9b0aa890de240ca32b11253dd4a
+## Example calibration can be found here: https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html
+
 #Setup
 
 pattern_size = (9,6) #inner corners of our chessboard
