@@ -15,7 +15,7 @@ Tips for the calibration:
 
 https://github.com/user-attachments/assets/7875d40f-b666-4726-ae68-2bb85fa5d197
 
-
+*Figure 1: Example calibration used just before testing*
 
 The files in this directoy can be loaded onto the RPI for use. Each file is numbered for the order of which you run them.
 
@@ -27,3 +27,5 @@ Once the stereo calibration is complete, run the FINN_TO_RPI code on the FPGA. T
 
 
 <img width="1897" height="925" alt="dog test" src="https://github.com/user-attachments/assets/0994ecf2-0082-4fd7-a223-ac2a049f657b" />
+
+*Figure 2: Object detection and distance estimation of a dog figurine*
