@@ -20,13 +20,13 @@ The initial goal was to implement both disparity mapping and CNN-based object re
 ##  System Architecture
 
 ```
-┌─────────────────┐ Object ID ( 0-9)   ┌──────────────────┐
+┌─────────────────┐   Object ID ( 0-9) ┌──────────────────┐
 │   Raspberry Pi 5│◄────────────────── │    PYNQ-Z1 FPGA  │
 │                 │    TCP/Ethernet    │                  │
 │ • Dual cameras  │   32x32 ROI data   │ • CNN inference  │
 │ • Disparity map │──────────────────► │ • FINN compiler  │
 │ • Flask server  │                    │ • Object recog.  │
-│ • OpenCV        │                    │ • Brevitas       │
+│ • OpenCV        │                    │                  │
 └─────────────────┘                    └──────────────────┘
         │
         ▼
@@ -72,7 +72,9 @@ The initial goal was to implement both disparity mapping and CNN-based object re
 ---
 
 
-https://github.com/user-attachments/assets/963628b5-31e3-48b0-8735-eabe6f099d1a
+
+
+https://github.com/user-attachments/assets/e48fc448-d38a-4dd2-834d-38c7ad1492ea
 *Figure 2: Disparity mapping and object detection live*
 
 ## Results
@@ -92,7 +94,7 @@ https://github.com/user-attachments/assets/963628b5-31e3-48b0-8735-eabe6f099d1a
 
 ---
 
-## 🎓 Academic Context
+## Academic Context
 
 This project was completed as part of my Engineering Honours degree at Queensland University of Technology under the supervision of Dr. Jasmine Banks. The work explores the intersection of computer vision, FPGA acceleration, and embedded systems design.
 
@@ -100,7 +102,7 @@ This project was completed as part of my Engineering Honours degree at Queenslan
 
 ---
 
-## 📝 Citation
+## Citation
 
 If you use this work in your research, publications, or projects, please cite:
 
@@ -123,7 +125,7 @@ This project is provided "as is" without warranty of any kind. Use at your own r
 
 ---
 
-##  Contact
+## Contact
 
 - **Author**: Samuel Brandon Smith
 - **Student ID**: N11064196  
