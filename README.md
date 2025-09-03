@@ -88,11 +88,10 @@ The initial goal was to implement both disparity mapping and CNN-based object re
 - **Distance Accuracy**: 10.56% relative error 
 
 ### Key Achievements
--  Successfully implemented hybrid FPGA-RPI architecture
--  Real-time disparity mapping at [X] FPS
+-  Implemented hybrid FPGA-RPI architecture
+-  Real-time disparity mapping at ~15 FPS
 -  FPGA-accelerated object recognition
 -  Web-based monitoring interface
-
 ---
 
 ## Academic Context
