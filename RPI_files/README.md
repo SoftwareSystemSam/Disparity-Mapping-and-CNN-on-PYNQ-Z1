@@ -1,6 +1,6 @@
 Put these files on the RPI (Recommmend using an RPI 5 or higher due to threading capabilities needed).
 
-You need two RPI cameras, an ethernet cable to connect the RPI to the FPGA and a chessboard for calibration.  You also need to setup both the RPI and the FPGA with static IP addresses. You can use OpenCVs chessboard here (which is what I did) https://github.com/opencv/opencv/blob/4.x/doc/pattern.png
+You need two RPI cameras, an ethernet cable to connect the RPI to the FPGA and a chessboard for calibration.  You also need to setup both the RPI and the FPGA with static IP addresses. You can use OpenCVs chessboards for calibration (used in this project) https://github.com/opencv/opencv/blob/4.x/doc/pattern.png
 
 Tips for the calibration: 
 * Print off the chessboard onto a piece of paper and stick that to something firm like a piece of cardboard. You need to be able to move the chessboard back and forth from the cameras for calibration.
