@@ -23,7 +23,7 @@ So first you run calibration_stereo_1.py. This python script will attempt to loc
 
 Once that is done, run stereo_calibrate_2.py. This will take those calibration images and put them into a file necessary for live disparity mapping.
 
-Once the stereo calibration is complete, run the FINN_TO_RPI code on the FPGA. This will open up a TCP connection and wait for data from the RPI. Once the FPGA TCP connection is waiting, you can run disparity_live. The RPI will initialise everything needed for disparity mapping, create a flask server so people can view the feed, and establish the TCP connection the FPGA. While disparity mapping is running, to fine tune the num_disparities and block_size you can use the keys ('-', '=', '[', ']'). You can press 'b' to print out benchmarking for performance analysis. If you want to quit just press 'q' when on the camera screen.
+Once the stereo calibration is complete, run the FINN_TO_RPI code on the FPGA. This will open up a TCP connection and wait for data from the RPI. Once the FPGA TCP connection is waiting, you can run disparity_live. The RPI will initialise everything needed for disparity mapping, create a flask server so people can view the feed, and establish the TCP connection to the FPGA. While disparity mapping is running, to fine tune the num_disparities and block_size you can use the keys ('-', '=', '[', ']'). You can press 'b' to print out benchmarking for performance analysis. If you want to quit just press 'q' when on the camera screen.
 
 
 <img width="1897" height="925" alt="dog test" src="https://github.com/user-attachments/assets/0994ecf2-0082-4fd7-a223-ac2a049f657b" />
