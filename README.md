@@ -21,15 +21,15 @@ The initial goal was to implement both disparity mapping and CNN-based object re
 
 ```
 ┌─────────────────┐   Object ID ( 0-9) ┌──────────────────┐
-│   Raspberry Pi 5│◄────────────────── │    PYNQ-Z1 FPGA  │
+│   Raspberry Pi 5│<─────────────────  │    PYNQ-Z1 FPGA  │
 │                 │    TCP/Ethernet    │                  │
 │ • Dual cameras  │   32x32 ROI data   │ • CNN inference  │
-│ • Disparity map │──────────────────► │ • FINN compiler  │
+│ • Disparity map │──────────────────> │ • FINN compiler  │
 │ • Flask server  │                    │ • Object recog.  │
 │ • OpenCV        │                    │                  │
 └─────────────────┘                    └──────────────────┘
         │
-        ▼
+        V
    Web Interface
    (Live viewing)
 ```
