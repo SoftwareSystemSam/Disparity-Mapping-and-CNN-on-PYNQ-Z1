@@ -52,7 +52,7 @@ The initial goal was to implement both disparity mapping and CNN-based object re
 ##  Key Features
 
 -  **Real-time stereo vision** with dual RPI cameras
--  **FPGA-accelerated CNN** inference using quantized neural networks
+-  **FPGA-accelerated CNN** inference using quantized neural networks - uses binary neural network derived from ONNX files from FINN examples
 -  **Web-based interface** via Flask server for live monitoring
 -  **Disparity mapping** using OpenCV algorithms
 -  **TCP communication** for efficient data transfer
