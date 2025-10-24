@@ -98,7 +98,6 @@ The initial goal was to implement both disparity mapping and CNN-based object re
 
 This project was completed as part of my Engineering Honours degree at Queensland University of Technology under the supervision of Dr. Jasmine Banks. The work explores the intersection of computer vision, FPGA acceleration, and embedded systems design.
 
-**Thesis Status**: [To be updated]
 
 ---
 
