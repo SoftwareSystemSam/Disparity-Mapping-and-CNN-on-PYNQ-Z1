@@ -64,7 +64,7 @@ The initial goal was to implement both disparity mapping and CNN-based object re
 - **CIFAR-10**: CNN training dataset for object classification
 - **Framework**: Brevitas for quantization-aware training
 
-### Testing Data
+### Testing Data - inital stages of project
 - **ETH3D Dataset**: Stereo vision benchmarking
 - **Stereo EGO Motion Dataset**: Real-world stereo sequences
   - [Dataset Link](https://lmb.informatik.uni-freiburg.de/resources/datasets/StereoEgomotion.en.html)
