@@ -1,0 +1,46 @@
+
+fuse_model:•
+Å
+StreamingFIFO_rtl_8_out0
+global_out(StreamingDataflowPartition_2_IODMA_hls_0"	IODMA_hls*
+NumChannels *
+backend"fpgadataflow *
+dataType"UINT8 *
+	direction"out *
+	intfWidth *
+numInputVectors@@ *
+streamWidth *
+slrÿÿÿÿÿÿÿÿÿ *
+partition_id *q
+code_gen_dir_ipgen"X/tmp/finn_dev_squowedri/code_gen_ipgen_StreamingDataflowPartition_2_IODMA_hls_0_d4ikcoqc *›
+
+ipgen_path"‰/tmp/finn_dev_squowedri/code_gen_ipgen_StreamingDataflowPartition_2_IODMA_hls_0_d4ikcoqc/project_StreamingDataflowPartition_2_IODMA_hls_0 *¥
+ip_path"–/tmp/finn_dev_squowedri/code_gen_ipgen_StreamingDataflowPartition_2_IODMA_hls_0_d4ikcoqc/project_StreamingDataflowPartition_2_IODMA_hls_0/sol1/impl/ip *I
+ip_vlnv";xilinx.com:hls:StreamingDataflowPartition_2_IODMA_hls_0:1.0 :finn.custom_op.fpgadataflow.hls
+fuse-graphZ*
+StreamingFIFO_rtl_8_out0
+
+
+b
+
+global_out
+
+
+rA
+
+global_out
+finn_datatypeUINT8
+tensor_layout
+['N', 'C']r2
+StreamingFIFO_rtl_8_out0
+finn_datatypeUINT8BrI
+vivado_stitch_proj3/tmp/finn_dev_squowedri/vivado_stitch_proj_p89p6q9dr
+clk_ns10.0r¹
+wrapper_filename¤/tmp/finn_dev_squowedri/vivado_stitch_proj_p89p6q9d/finn_vivado_stitch_proj.gen/sources_1/bd/StreamingDataflowPartition_2/hdl/StreamingDataflowPartition_2_wrapper.vrG
+vivado_stitch_vlnv1xilinx_finn:finn:StreamingDataflowPartition_2:1.0r¬
+vivado_stitch_ifnames’{"clk": ["ap_clk"], "rst": ["ap_rst_n"], "s_axis": [["s_axis_0", 8]], "m_axis": [], "aximm": [["m_axi_gmem0", 8]], "axilite": ["s_axi_control_0"]}r
+	exec_modertlsimr†
+res_total_ooc_synthî{'vivado_proj_folder': '/tmp/finn_dev_squowedri/synth_out_of_context_ox5z_dx5/results_finn_design_wrapper', 'LUT': 3786.0, 'LUTRAM': 1.0, 'FF': 5901.0, 'DSP': 0.0, 'BRAM': 13.0, 'BRAM_18K': 1.0, 'BRAM_36K': 13.0, 'URAM': 0.0, 'Carry': 212.0, 'WNS': 1.045, 'Delay': 1.045, 'vivado_version': 2022.2, 'vivado_build_no': 3671981.0, '': 0, 'fmax_mhz': 111.66945840312674}rQ
+floorplan_json?/tmp/finn_dev_squowedri/vitis_floorplan_8h398g2b/floorplan.jsonr
+platform
+zynq-iodma
